@@ -25,10 +25,23 @@ label{
     left: -6px;
     transition: all 0.6s ease;
 }
+.btn::after{
+    content: "OFF";
+    position: absolute;
+    top: -19px;
+    left: 61px;
+    color: white;
+    transition: left 0.6s ease;
+}
 .check:checked + .btn{
     background: #a8a7a7;   
 }
 .check:checked + .btn::before{
     background: #00a8ff;
     left: 45px;
+}
+.check:checked + .btn::after{
+    content: "ON";
+    position: absolute;
+    left: 14px;
 }
