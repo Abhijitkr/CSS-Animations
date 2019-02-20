@@ -4,7 +4,7 @@
     padding: 20px;
 }
 .wrapper:hover .container{
-    transform: translateX(1200px) translateX(-1200px) rotate(7200deg);
+    transform: translateX(1200px) rotate(7200deg);
 }
 .container{
     border: 20px dashed goldenrod;
